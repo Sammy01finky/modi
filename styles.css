@@ -1,0 +1,178 @@
+* {
+    box-sizing: boeder-box;
+  }
+  #header {
+    width: 300px;
+    height: 200px;
+    display: flex;
+  }
+  #header-img {
+    width: 18rem;
+    height: 12rem;
+    background-color: blue;
+    border: 5px solid green;
+    border-radius: 50%;
+    z-index: 2;
+    position: fixed;
+  }
+  #nav-bar {
+    width: auto;
+    height: auto;
+    background-color: pink;
+    float: right;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  #nav-bar {
+    padding-right: 50px;
+    padding-bottom: 20px;
+  }
+  #nav-bar li {
+    list-style-type: none;
+    margin: 10px;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+  }
+  .modi {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: green;
+    display: flex;
+    position: relative;
+    font-family: sans-serif;
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 30%;
+  }
+  .modi h1 {
+    color: green;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-size: 4rem;
+  }
+  #about {
+    background: repeating-linear-gradient(
+      90deg, 
+      #6c5ce7, 
+      #5c6bc0, 
+      #4c52b3, 
+      #3b4ea5, 
+      #2a3f8f, 
+      #1e2e6f
+      );
+      width: 100%;
+      height: 35rem;
+      border-radius: 25px 25px 0 0;
+      margin: 20px auto 0 auto;
+  }
+  #about p {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    font-size: 25px;
+    color: white;
+  }
+  #about p:last-of-type {
+    font-size: 5rem;
+  }
+  .video {
+    width: 100%;
+    height: 30rem;
+    background: repeating-linear-gradient(
+      90deg, 
+      #6c5ce7, 
+      #5c6bc0, 
+      #4c52b3, 
+      #3b4ea5, 
+      #2a3f8f, 
+      #1e2e6f
+      );
+      display: flex;
+      border-radius: 0 0 25px 25px
+  }
+  .video iframe {
+    margin: 0px auto;
+    padding: 0px;
+    width: 80%;
+    height: 80%;
+    border: 5px solid green;
+    border-radius: 25px;
+  }
+  .email h2 {
+    margin: 20px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 50px;
+  }
+  .email p {
+    margin: 20px 20px 10px 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+  #form{
+    text-align: center;
+    
+    padding: 10px;
+  }
+  #form input:first-of-type {
+    width: 250px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid green;
+    text-align: center;
+  }
+  #form input:last-of-type {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+  }
+  @media only screen and (max-width: 860px) {
+    #about p:last-of-type {
+    font-size: 4rem;
+  }
+  }
+  @media only screen and (max-width: 800px) {
+    #about p {
+    font-size: 20px;
+  }
+    #about p:last-of-type {
+    font-size: 3rem;
+  }
+  }
+  @media only screen and (max-width: 600px) {
+    #about p {
+    font-size: 20px;
+  }
+    #about p:last-of-type {
+    font-size: 3rem;
+  }
+  }
+  @media only screen and (max-width: 600px) {
+    #about p {
+    font-size: 16px;
+  }
+    #about p:last-of-type {
+    font-size: 3rem;
+  }
+  }
